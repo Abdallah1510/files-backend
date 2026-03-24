@@ -1,0 +1,1005 @@
+name: Endpoints
+description: ''
+endpoints:
+  -
+    custom: []
+    httpMethods:
+      - POST
+    uri: api/admin/property-types
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      name_ar:
+        custom: []
+        name: name_ar
+        description: 'Must not be greater than 255 characters.'
+        required: true
+        example: vmqeopfuudtdsufvyvddq
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      name_en:
+        custom: []
+        name: name_en
+        description: 'Must not be greater than 255 characters.'
+        required: true
+        example: amniihfqcoynlazghdtqt
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      slug:
+        custom: []
+        name: slug
+        description: ''
+        required: true
+        example: consequatur
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanBodyParameters:
+      name_ar: vmqeopfuudtdsufvyvddq
+      name_en: amniihfqcoynlazghdtqt
+      slug: consequatur
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - POST
+    uri: api/admin/property-statuses
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      name_ar:
+        custom: []
+        name: name_ar
+        description: 'Must not be greater than 255 characters.'
+        required: true
+        example: vmqeopfuudtdsufvyvddq
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      name_en:
+        custom: []
+        name: name_en
+        description: 'Must not be greater than 255 characters.'
+        required: true
+        example: amniihfqcoynlazghdtqt
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      slug:
+        custom: []
+        name: slug
+        description: ''
+        required: true
+        example: consequatur
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanBodyParameters:
+      name_ar: vmqeopfuudtdsufvyvddq
+      name_en: amniihfqcoynlazghdtqt
+      slug: consequatur
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - POST
+    uri: api/admin/finishing-types
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      name_ar:
+        custom: []
+        name: name_ar
+        description: 'Must not be greater than 255 characters.'
+        required: true
+        example: vmqeopfuudtdsufvyvddq
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      name_en:
+        custom: []
+        name: name_en
+        description: 'Must not be greater than 255 characters.'
+        required: true
+        example: amniihfqcoynlazghdtqt
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      slug:
+        custom: []
+        name: slug
+        description: ''
+        required: true
+        example: consequatur
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanBodyParameters:
+      name_ar: vmqeopfuudtdsufvyvddq
+      name_en: amniihfqcoynlazghdtqt
+      slug: consequatur
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - POST
+    uri: api/admin/features
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      name_ar:
+        custom: []
+        name: name_ar
+        description: 'Must not be greater than 255 characters.'
+        required: true
+        example: vmqeopfuudtdsufvyvddq
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      name_en:
+        custom: []
+        name: name_en
+        description: 'Must not be greater than 255 characters.'
+        required: true
+        example: amniihfqcoynlazghdtqt
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      slug:
+        custom: []
+        name: slug
+        description: ''
+        required: true
+        example: consequatur
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      icon:
+        custom: []
+        name: icon
+        description: ''
+        required: false
+        example: consequatur
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        deprecated: false
+    cleanBodyParameters:
+      name_ar: vmqeopfuudtdsufvyvddq
+      name_en: amniihfqcoynlazghdtqt
+      slug: consequatur
+      icon: consequatur
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - POST
+    uri: api/admin/properties
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      parent_id:
+        custom: []
+        name: parent_id
+        description: 'The <code>id</code> of an existing record in the properties table.'
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        deprecated: false
+      property_category:
+        custom: []
+        name: property_category
+        description: ''
+        required: true
+        example: building
+        type: string
+        enumValues:
+          - building
+          - unit
+          - standalone
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      property_type_id:
+        custom: []
+        name: property_type_id
+        description: 'The <code>id</code> of an existing record in the property_types table.'
+        required: true
+        example: consequatur
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      property_status_id:
+        custom: []
+        name: property_status_id
+        description: 'The <code>id</code> of an existing record in the property_statuses table.'
+        required: true
+        example: consequatur
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      finishing_type_id:
+        custom: []
+        name: finishing_type_id
+        description: 'The <code>id</code> of an existing record in the finishing_types table.'
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        deprecated: false
+      title_ar:
+        custom: []
+        name: title_ar
+        description: 'Must not be greater than 255 characters.'
+        required: true
+        example: mqeopfuudtdsufvyvddqa
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      title_en:
+        custom: []
+        name: title_en
+        description: 'Must not be greater than 255 characters.'
+        required: true
+        example: mniihfqcoynlazghdtqtq
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      price_type:
+        custom: []
+        name: price_type
+        description: ''
+        required: true
+        example: cash
+        type: string
+        enumValues:
+          - cash
+          - installment
+          - starting_from
+          - custom
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      price_amount:
+        custom: []
+        name: price_amount
+        description: ''
+        required: false
+        example: 11613.31890586
+        type: number
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        deprecated: false
+    cleanBodyParameters:
+      property_category: building
+      property_type_id: consequatur
+      property_status_id: consequatur
+      title_ar: mqeopfuudtdsufvyvddqa
+      title_en: mniihfqcoynlazghdtqtq
+      price_type: cash
+      price_amount: 11613.31890586
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - GET
+    uri: api/admin/properties
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        custom: []
+        status: 200
+        content: '{"data":[{"id":1,"title_ar":"\u0628\u0631\u062c \u0627\u0644\u0631\u0634\u064a\u062f\u064a","title_en":"El Rashidi Tower","slug":"el-rashidi-tower","price_amount":"5000000.00","price_type":"cash","currency":"EGP","is_active":1,"is_featured":0,"images":[{"id":1,"image_path":"image1.jpg","is_main":1,"sort_order":0},{"id":2,"image_path":"image2.jpg","is_main":0,"sort_order":1}],"features":[],"created_at":"2026-03-03T22:17:48.000000Z","updated_at":"2026-03-03T23:41:31.000000Z","parent_id":null,"children":[]},{"id":2,"title_ar":"\u0628\u0631\u062c \u0627\u0644\u0631\u0634\u064a\u062f\u064a","title_en":"El Rashidi Tower","slug":"el-rashidi-tower-1","price_amount":"5000000.00","price_type":"cash","currency":"EGP","is_active":1,"is_featured":0,"images":[],"features":[],"created_at":"2026-03-03T22:19:20.000000Z","updated_at":"2026-03-03T22:19:20.000000Z","parent_id":null,"children":[{"id":3,"title_ar":"\u0634\u0642\u0629 101","title_en":"Apartment 101","slug":"apartment-101","price_amount":"1500000.00","price_type":"cash","currency":"EGP","is_active":1,"is_featured":0,"images":[],"features":[],"created_at":"2026-03-03T22:22:45.000000Z","updated_at":"2026-03-03T22:22:45.000000Z","parent_id":2,"children":[]}]},{"id":3,"title_ar":"\u0634\u0642\u0629 101","title_en":"Apartment 101","slug":"apartment-101","price_amount":"1500000.00","price_type":"cash","currency":"EGP","is_active":1,"is_featured":0,"images":[],"features":[],"created_at":"2026-03-03T22:22:45.000000Z","updated_at":"2026-03-03T22:22:45.000000Z","parent_id":2,"children":[]},{"id":4,"title_ar":"\u0628\u0631\u062c \u0633\u0643\u0646\u064a \u0641\u0627\u062e\u0631","title_en":"Luxury Residential Tower","slug":"luxury-residential-tower","price_amount":"5000000.00","price_type":"cash","currency":"EGP","is_active":1,"is_featured":0,"images":[],"features":[],"created_at":"2026-03-06T04:40:09.000000Z","updated_at":"2026-03-06T04:40:09.000000Z","parent_id":null,"children":[]},{"id":5,"title_ar":"\u0628\u0631\u062c \u0633\u0643\u0646\u064a \u0641\u0627\u062e\u0631","title_en":"Luxury Residential Tower","slug":"luxury-residential-tower-1","price_amount":"5000000.00","price_type":"cash","currency":"EGP","is_active":1,"is_featured":0,"images":[],"features":[],"created_at":"2026-03-06T04:45:32.000000Z","updated_at":"2026-03-06T04:45:32.000000Z","parent_id":null,"children":[]},{"id":6,"title_ar":"\u0628\u0631\u062c \u0633\u0643\u0646\u064a \u0641\u0627\u062e\u0631","title_en":"Luxury Residential Tower","slug":"luxury-residential-tower-2","price_amount":"5000000.00","price_type":"cash","currency":"EGP","is_active":1,"is_featured":0,"images":[],"features":[],"created_at":"2026-03-06T04:48:02.000000Z","updated_at":"2026-03-06T04:48:02.000000Z","parent_id":null,"children":[]}],"links":{"first":"http:\/\/localhost\/api\/admin\/properties?page=1","last":"http:\/\/localhost\/api\/admin\/properties?page=1","prev":null,"next":null},"meta":{"current_page":1,"from":1,"last_page":1,"links":[{"url":null,"label":"&laquo; Previous","page":null,"active":false},{"url":"http:\/\/localhost\/api\/admin\/properties?page=1","label":"1","page":1,"active":true},{"url":null,"label":"Next &raquo;","page":null,"active":false}],"path":"http:\/\/localhost\/api\/admin\/properties","per_page":15,"to":6,"total":6}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - GET
+    uri: 'api/admin/properties/{id}'
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        custom: []
+        name: id
+        description: 'The ID of the property.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanUrlParameters:
+      id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        custom: []
+        status: 200
+        content: '{"data":{"id":1,"title_ar":"\u0628\u0631\u062c \u0627\u0644\u0631\u0634\u064a\u062f\u064a","title_en":"El Rashidi Tower","slug":"el-rashidi-tower","price_amount":"5000000.00","price_type":"cash","currency":"EGP","is_active":1,"is_featured":0,"images":[{"id":1,"image_path":"image1.jpg","is_main":1,"sort_order":0},{"id":2,"image_path":"image2.jpg","is_main":0,"sort_order":1}],"features":[],"created_at":"2026-03-03T22:17:48.000000Z","updated_at":"2026-03-03T23:41:31.000000Z","parent_id":null,"children":[]}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - PUT
+    uri: 'api/admin/properties/{id}'
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        custom: []
+        name: id
+        description: 'The ID of the property.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanUrlParameters:
+      id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      parent_id:
+        custom: []
+        name: parent_id
+        description: 'The <code>id</code> of an existing record in the properties table.'
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        deprecated: false
+      property_type_id:
+        custom: []
+        name: property_type_id
+        description: 'The <code>id</code> of an existing record in the property_types table.'
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      property_status_id:
+        custom: []
+        name: property_status_id
+        description: 'The <code>id</code> of an existing record in the property_statuses table.'
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      finishing_type_id:
+        custom: []
+        name: finishing_type_id
+        description: 'The <code>id</code> of an existing record in the finishing_types table.'
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        deprecated: false
+      title_ar:
+        custom: []
+        name: title_ar
+        description: 'Must not be greater than 255 characters.'
+        required: false
+        example: vmqeopfuudtdsufvyvddq
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      title_en:
+        custom: []
+        name: title_en
+        description: 'Must not be greater than 255 characters.'
+        required: false
+        example: amniihfqcoynlazghdtqt
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      price_type:
+        custom: []
+        name: price_type
+        description: ''
+        required: false
+        example: cash
+        type: string
+        enumValues:
+          - cash
+          - installment
+          - starting_from
+          - custom
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      price_amount:
+        custom: []
+        name: price_amount
+        description: ''
+        required: false
+        example: 11613.31890586
+        type: number
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        deprecated: false
+      is_active:
+        custom: []
+        name: is_active
+        description: ''
+        required: false
+        example: false
+        type: boolean
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      is_featured:
+        custom: []
+        name: is_featured
+        description: ''
+        required: false
+        example: true
+        type: boolean
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      sort_order:
+        custom: []
+        name: sort_order
+        description: ''
+        required: false
+        example: 17
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      feature_ids:
+        custom: []
+        name: feature_ids
+        description: 'The <code>id</code> of an existing record in the features table.'
+        required: false
+        example: null
+        type: 'string[]'
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanBodyParameters:
+      title_ar: vmqeopfuudtdsufvyvddq
+      title_en: amniihfqcoynlazghdtqt
+      price_type: cash
+      price_amount: 11613.31890586
+      is_active: false
+      is_featured: true
+      sort_order: 17
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - DELETE
+    uri: 'api/admin/properties/{id}'
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        custom: []
+        name: id
+        description: 'The ID of the property.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanUrlParameters:
+      id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - POST
+    uri: 'api/admin/properties/{id}/restore'
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      id:
+        custom: []
+        name: id
+        description: 'The ID of the property.'
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanUrlParameters:
+      id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - POST
+    uri: 'api/admin/properties/{propertyId}/features'
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      propertyId:
+        custom: []
+        name: propertyId
+        description: ''
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanUrlParameters:
+      propertyId: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      feature_ids:
+        custom: []
+        name: feature_ids
+        description: 'The <code>id</code> of an existing record in the features table.'
+        required: false
+        example: null
+        type: 'string[]'
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - POST
+    uri: 'api/admin/properties/{propertyId}/images/bulk'
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      propertyId:
+        custom: []
+        name: propertyId
+        description: ''
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanUrlParameters:
+      propertyId: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      images:
+        custom: []
+        name: images
+        description: 'Must have at least 1 items.'
+        required: true
+        example:
+          - []
+        type: 'object[]'
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      'images[].image_path':
+        custom: []
+        name: 'images[].image_path'
+        description: ''
+        required: true
+        example: consequatur
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      'images[].is_main':
+        custom: []
+        name: 'images[].is_main'
+        description: ''
+        required: false
+        example: false
+        type: boolean
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        deprecated: false
+      'images[].sort_order':
+        custom: []
+        name: 'images[].sort_order'
+        description: 'Must be at least 0.'
+        required: false
+        example: 45
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        deprecated: false
+    cleanBodyParameters:
+      images:
+        -
+          image_path: consequatur
+          is_main: false
+          sort_order: 45
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+  -
+    custom: []
+    httpMethods:
+      - POST
+    uri: 'api/admin/properties/{propertyId}/videos'
+    metadata:
+      custom: []
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      deprecated: false
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      propertyId:
+        custom: []
+        name: propertyId
+        description: ''
+        required: true
+        example: 1
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+    cleanUrlParameters:
+      propertyId: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      video_url:
+        custom: []
+        name: video_url
+        description: ''
+        required: true
+        example: 'http://kunze.biz/iste-laborum-eius-est-dolor.html'
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: false
+        deprecated: false
+      sort_order:
+        custom: []
+        name: sort_order
+        description: 'Must be at least 0.'
+        required: false
+        example: 12
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        nullable: true
+        deprecated: false
+    cleanBodyParameters:
+      video_url: 'http://kunze.biz/iste-laborum-eius-est-dolor.html'
+      sort_order: 12
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
